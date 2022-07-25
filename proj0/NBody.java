@@ -61,7 +61,7 @@ public class NBody {
 		StdOut.printf("%.2e\n", R);
 		for (int count = 0; count < planets.length; count = count + 1) {
 			StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
-   				planets[count].xxPos, planets[count].yyPos, planets[count].xxVel, planets[count].yyVel, planets[i].mass, planets[i].imgFileName);	
+   				planets[count].xxPos, planets[count].yyPos, planets[count].xxVel, planets[count].yyVel, planets[count].mass, planets[count].imgFileName);	
 		}	
 
 	}
